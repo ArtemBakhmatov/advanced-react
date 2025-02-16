@@ -12,3 +12,5 @@ npm i -D webpack-dev-server@4.7.4 @types/webpack-dev-server@4.7.2
 npm i - react@17.0.2 react-dom@17.0.2
 npm i -D @types/react@17.0.39 @types/react-dom@17.0.11
 npm i -D sass-loader@12.6.0 sass@1.49.9 style-loader@3.3.1 css-loader@6.6.0
+
+npm i -D mini-css-extract-plugin@2.5.3
