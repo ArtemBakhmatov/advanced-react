@@ -14,3 +14,6 @@ npm i -D @types/react@17.0.39 @types/react-dom@17.0.11
 npm i -D sass-loader@12.6.0 sass@1.49.9 style-loader@3.3.1 css-loader@6.6.0
 
 npm i -D mini-css-extract-plugin@2.5.3
+
+npm i react-router-dom@6.2.1
+npm i -D @types/react-router-dom@5.3.3
