@@ -5,11 +5,15 @@ import { Suspense } from 'react';
 import { Counter } from './components/Counter';
 import { AboutPageAsync } from './pages/AboutPage/AboutPage.async';
 import { MainPageAsync } from './pages/MainPage/MainPage.async';
-import './index.scss';
+import { useTheme } from './theme/useTheme';
+import './styles/index.scss';
 
 const App = () => {
+  const { theme, toggleTheme } = useTheme();
+  
   return (
-    <div className='app'>
+    <div className={ `app ${ theme }` }>
+      <button onClick={ toggleTheme}>TOGGLE</button>
       <Link to={ '/' }>Главная</Link>
       <Link to={ '/about' }>О сайте </Link>
       
