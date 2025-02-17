@@ -7,13 +7,14 @@ import { AboutPageAsync } from './pages/AboutPage/AboutPage.async';
 import { MainPageAsync } from './pages/MainPage/MainPage.async';
 import { useTheme } from './theme/useTheme';
 import './styles/index.scss';
+import { classNames } from './helpers/classNames/classNames';
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
   
   return (
-    <div className={ `app ${ theme }` }>
-      <button onClick={ toggleTheme}>TOGGLE</button>
+    <div className={ classNames('app', {}, [theme])}>
+      <button onClick={ toggleTheme }>TOGGLE</button>
       <Link to={ '/' }>Главная</Link>
       <Link to={ '/about' }>О сайте </Link>
       
@@ -30,3 +31,6 @@ const App = () => {
 };
 
 export default App;
+
+// <div className={ classNames('app', { hovered: true, selected: false }, [theme, 'cls2', 'cls3'])}> -> в HTML будет 
+// выглядеть так <div class='app dark cls2 cls3 hovered'></div>
