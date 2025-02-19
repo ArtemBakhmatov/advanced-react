@@ -1,4 +1,4 @@
-# 1. Webpack. Введение в арх-ру. Code splitting. Css Modules
+# 2. Router, App Layout, i18n, eslint, stylelint, jest
 ## Команды в терминале.
 npm init -y
 npm i -D webpack@5.69.1 webpack-cli@4.9.2
