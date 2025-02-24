@@ -16,3 +16,6 @@ export const Navbar = ({ className }: NavbarProps) => {
     </div>
   );
 };
+
+npm i -D @svgr/webpack@6.2.1
+npm i -D file-loader@6.2.0
