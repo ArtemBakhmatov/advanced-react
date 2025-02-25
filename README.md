@@ -19,3 +19,6 @@ export const Navbar = ({ className }: NavbarProps) => {
 
 npm i -D @svgr/webpack@6.2.1
 npm i -D file-loader@6.2.0
+
+npm i react-i18next@11.15.5 i18next@21.6.11
+npm i i18next-http-backend@1.3.2 i18next-browser-languagedetector@6.1.3
