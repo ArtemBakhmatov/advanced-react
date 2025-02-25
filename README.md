@@ -22,3 +22,6 @@ npm i -D file-loader@6.2.0
 
 npm i react-i18next@11.15.5 i18next@21.6.11
 npm i i18next-http-backend@1.3.2 i18next-browser-languagedetector@6.1.3
+
+npm i -D babel-loader@8.2.3 @babel/core@7.17.5
+npm i -D babel-plugin-i18next-extract@0.8.3
