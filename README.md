@@ -49,3 +49,5 @@ npm i -D @typescript-eslint/eslint-plugin@5.12.1
 npm i -D @typescript-eslint/parser@5.12.1
 
 npx eslint "**/*.{ts,tsx}"
+
+npm i -D stylelint@14.5.3 stylelint-config-standard-scss@3.0.0
