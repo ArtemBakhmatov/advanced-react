@@ -51,3 +51,15 @@ npm i -D @typescript-eslint/parser@5.12.1
 npx eslint "**/*.{ts,tsx}"
 
 npm i -D stylelint@14.5.3 stylelint-config-standard-scss@3.0.0
+
+npm i -D jest@27.5.1
+npm i -D @types/jest@27.4.1
+npx jest --init
+Would you like to use Jest when running "test" script in "package.json"? Y
+Would you like to use Typescript for the configuration file? Y
+Choose the test environment that will be used for testing: jsdom (browser-like)
+Do you want Jest to add coverage reports? N (тут спрашивает про отчеты но нам это не нужно)
+Which provider should be used to instrument code for coverage? babel
+Automatically clear mock calls, instances and results before every test? y (подчищать mock после каждого теста)
+
+npm i -D @babel/preset-typescript@7.16.7
