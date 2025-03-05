@@ -40,3 +40,5 @@ npm i -D @storybook/react@6.4.19
 npm i -D @storybook/testing-library@0.0.9
 
 
+npm i -D loki@0.28.1
+npx loki test
