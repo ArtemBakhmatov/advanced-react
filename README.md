@@ -29,3 +29,14 @@ npm i -D regenerator-runtime@0.13.9
 
 При написании тестов , абсолютные импорты ругались, так что где писал тесты я использовал относительные 
 импорты
+
+npm i -D @storybook/addon-actions@6.4.19
+npm i -D @storybook/addon-essentials@6.4.19
+npm i -D @storybook/addon-interactions@6.4.19
+npm i -D @storybook/addon-links@6.4.19
+npm i -D @storybook/builder-webpack5@6.4.19
+npm i -D @storybook/manager-webpack5@6.4.19
+npm i -D @storybook/react@6.4.19
+npm i -D @storybook/testing-library@0.0.9
+
+
