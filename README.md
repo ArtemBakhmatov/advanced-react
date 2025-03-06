@@ -42,3 +42,5 @@ npm i -D @storybook/testing-library@0.0.9
 
 npm i -D loki@0.28.1
 npx loki test
+
+npm i -D @types/lodash@4.14.191

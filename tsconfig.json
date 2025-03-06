@@ -30,8 +30,13 @@
     // import * as React from 'react';
     // можно писать такой
     // import React from 'react';
-		"skipLibCheck": true,
-		"allowSyntheticDefaultImports": true
+		"skipLibCheck": false,
+		"allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": [
+      "node",
+      "jest"
+    ]
   },
 	// Для экспортов и импортов
 	"ts-node": {

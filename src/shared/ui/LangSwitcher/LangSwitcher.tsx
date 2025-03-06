@@ -15,7 +15,7 @@ export const LangSwitcher = ({ className }: LangSwitcherProps) => {
 
   return (
     <Button
-      className={classNames('', {}, [className])}
+      className={classNames('', {}, [className || ''])}
       onClick={toggle}
       theme={ThemeButton.CLEAR}
     >
