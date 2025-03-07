@@ -41,7 +41,7 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
-    'linebreak-style': ['error', 'windows'], // Разрешить CRLF (Windows)
+    'linebreak-style': process.env.CI ? ['error', 'unix'] : 'off', // Разрешить CRLF (Windows)
     'i18next/no-literal-string': [
       'error',
       {
