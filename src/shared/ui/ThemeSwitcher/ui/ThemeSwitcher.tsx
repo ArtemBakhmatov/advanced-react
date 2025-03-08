@@ -1,4 +1,4 @@
-import { Button, ThemeButton } from '../../Button/Button';
+import { Button, ButtonTheme } from '../../Button/Button';
 import { useTheme, Theme } from '../../../../app/providers/ThemeProvider/index';
 import DarkIcon from '../../../assets/icons/theme-dark.svg';
 
@@ -13,7 +13,7 @@ export const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
   const { theme, toggleTheme } = useTheme();
   return (
     <Button
-      theme={ThemeButton.CLEAR}
+      theme={ButtonTheme.CLEAR}
       className={classNames('', {}, [className || ''])}
       onClick={toggleTheme}
     >

@@ -44,3 +44,9 @@ npm i -D loki@0.28.1
 npx loki test
 
 npm i -D @types/lodash@4.14.191
+
+npm i -D reg-cli@0.17.6 (это для loki test и к нему добавили папку scripts в корне проекта)
+запустить команду node scripts/generate-visual-json-report.js и в папке .loki появится файл report.json
+далее запускаем эту команду и появится в папке .loki:
+npx reg-cli --from .loki/report.json --report .loki/report.html
+и потом запустим команду npm run test:ui:ok
