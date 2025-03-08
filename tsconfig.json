@@ -30,13 +30,23 @@
     // import * as React from 'react';
     // можно писать такой
     // import React from 'react';
-		"skipLibCheck": true,
-		"allowSyntheticDefaultImports": true
+		"skipLibCheck": false,
+		"allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": [
+      "node",
+      "jest"
+    ]
   },
 	// Для экспортов и импортов
 	"ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "include": [
+    "./config/jest/setupTests.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+  ] // при подключении include вся сборка ломается, я ее пока закомментирую
 }
